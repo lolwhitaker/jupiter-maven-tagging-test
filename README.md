@@ -1,7 +1,9 @@
-# junit5-jupiter-starter-maven
+# jupiter tagging test
 
-The `junit5-jupiter-starter-maven` project demonstrates how to execute JUnit Jupiter
-tests using Maven.
+This repo demonstrates how to use a tag expression with maven surefire plugin.
 
-Please note that this project uses the [Maven Wrapper](https://github.com/takari/maven-wrapper).
-Thus, to ensure that the correct version of Maven is used, invoke `mvnw` instead of `mvn`.
+`mvn test`
+
+See the expression [defined here](https://github.com/lolwhitaker/jupiter-maven-tagging-test/blob/master/pom.xml#L42).
+
+This means that only tests defined with both tags will run.
